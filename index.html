@@ -2,38 +2,54 @@
 <html>
 <head>
 	<title>Project Food Trucks</title>
+	<meta name="viewport" content="width=device-width, initial-scale = .99">
+	<meta charset="utf-8">
+	<meta name="author" content="Ronal Infante">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://unpkg.com/@barba/core"></script>
 </head>
-<body class="container">
+<body class="grid" data-barba="wrapper">
 
 <header>
-	<div class="tall">
-		<h2>Grow With Us</h2>
-		<div class="tall">
-			<p>Project Food Truck is an educational and networking tool for Houston-based small businesses looking to run a food truck.</p>
-			<p>The goal is to share advice and create connections among established entrepeneurs and newcomers in Houston, TX.</p>
-			<p>Ronal Infante is a graduate student at the University of Houston. He is the main contact for the project.</p>
-		</div>
-		<h3>Ronal Infante</h3>
-		<p>713.409.2283<br>@ron.infante</p>
-	</div>
-	<div>
-		<h2><span>#</span>projectfoodtruck</h2>
+	<div class="header-padding">
 		<div>
-			<img src="https://via.placeholder.com/300x180">
-			<caption>@account</caption>
+			<h2>Grow With Us</h2>
+			<div class="tall">
+				<p>Project Food Truck is an educational and networking tool for Houston-based small businesses looking to run a food truck.</p>
+				<p>The goal is to share advice and create connections among established entrepeneurs and newcomers in Houston, TX.</p>
+				<p>Ronal Infante is a graduate student at the University of Houston. He is the main contact for the project.</p>
+			</div>
+			<h3>Ronal Infante</h3>
+			<p>713.409.2283<br>@ron.infante</p>
+		</div>
+		<div class="tall">
+			<h2><span>#</span>projectfoodtruck</h2>
+			<div>
+				<img src="https://via.placeholder.com/300x180" />
+				<details><summary>@account</summary></details>
+			</div>
 		</div>
 	</div>
+	<div class="label">ABOUT</div>
 </header>
 
 <nav>
-	<a href="/">Cariño Taco Truck</a>
-	<a href="/">Stone Fire Pizza</a>
-	<a href="/">Hey Babe SnowBalls  & Pralines</a>
-	<a href="/">Houston Sauce Co.</a>
-	<a href="/">Earthy Goddess</a>
+	<p>Cariño Taco Truck<a href="CarinoTacoTruck.html"></a></p>
+	<p>Stone Fire Pizza<a href="StoneFirePizza.html"></a></p>
+	<p>Hey Babe SnowBalls  <br>& Pralines<a href="HeyBabe.html"></a></p>
+	<p>Houston Sauce Co.<a href="HoustonSauce.html"></a></p>
+	<p>Earthy Goddess<a href="EarthyGoddess.html"></a></p>
 </nav>
 
 
+
+<section data-barba="container" data-barba-namespace="home"></section>
+
+<script type="text/javascript">
+
+
+barba.init();
+console.log( 'barba.js' );
+</script>
 </body>
 </html>
