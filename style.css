@@ -529,10 +529,16 @@ header{
 header:hover{ width: calc(100vw - 50px); }
 .social{ 
     display: inline-block;
-    margin-right: 1em;
+    margin: 0.5em;
+    vertical-align: top;
 }
-header details{ 
-    padding: 1em; 
+.social details{ width: 300px; }
+.social details img{ width: 270px; }
+header details div{ 
+    padding: 1em 1em 1em 1.5em; 
+}
+header details a{ 
+    border: 0 
 }
 .header-padding{ padding: 3em; }
 .label {
