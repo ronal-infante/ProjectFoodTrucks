@@ -105,6 +105,7 @@ a {
     color: black;
     font-weight: bold;
     margin: 0;
+    text-decoration: none;
 }
 
 a:focus {
@@ -114,7 +115,7 @@ a:focus {
 a:hover,
 a:active {
 	outline: 0;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 h1, .h1,
