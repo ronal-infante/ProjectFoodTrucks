@@ -101,17 +101,10 @@ body {
 }
 
 a {
-	display: inline-block;
 	vertical-align: top;
     color: black;
-    text-decoration: none;
+    font-weight: bold;
     margin: 0;
-    padding-bottom: 3px;
-    border-bottom: 3px solid black;
-    -webkit-transition: padding 0.2s;
-    -o-transition:      padding 0.2s;
-    -moz-transition:    padding 0.2s;
-    transition:         padding 0.2s;
 }
 
 a:focus {
@@ -122,8 +115,6 @@ a:hover,
 a:active {
 	outline: 0;
     text-decoration: none;
-    padding-top: 3px;
-    padding-bottom: 0;
 }
 
 h1, .h1,
@@ -146,6 +137,7 @@ h6 span, .h6 span { font-family: 'Palatino', Times, serif; }
 
 h1, .h1 { 
 	font-size: 3.375em;
+    font-family: "MaziusItalic", "Mazius", "Palatino", Times, serif;
 }
 h2, .h2 {
     font-size: 1.9em;
@@ -481,10 +473,10 @@ hr {
   src: url('MAZIUSREVIEW-Regular.otf') format('opentype');
 }
 
-/*@font-face {
-  font-family: "Mazius";
-  src: url("MAZIUSREVIEW-Regular.otf") format("otf");
-}*/
+@font-face {
+  font-family: "MaziusItalic";
+  src: url("MAZIUSREVIEW-Italic.otf") format("opentype");
+}
 
 
 
@@ -550,9 +542,11 @@ header details a{
     transform: rotateZ(-90deg);
     transform-origin: 0 0;
     text-align: center;
-    font-family: Mazius;
+    font-family: "Mazius", "Palatino", Times, serif;
     border-bottom: 1px solid;
     opacity: 0;
+    text-transform: uppercase;
+
 }
 nav:hover ~ header{ background: red; }
 nav:hover ~ * .label{ opacity: 1; }
