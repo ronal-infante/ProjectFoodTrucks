@@ -4,5 +4,5 @@ In partnership with renown Houston artist Rick Lowe and [Project Row Houses](htt
 
 [Learn More](http://ronalinfante.com/food-trucks)
 
-![](https://github.com/ronal-infante/UHID-iframe/blob/master/assets/colors.png)
-![](https://github.com/ronal-infante/UHID-iframe/blob/master/assets/visual-design.jpg)
+![](https://github.com/ronal-infante/ProjectFoodTrucks/blob/master/assets/colors.png)
+![](https://github.com/ronal-infante/ProjectFoodTrucks/blob/master/assets/visual-design.jpg)
