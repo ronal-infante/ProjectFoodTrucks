@@ -685,10 +685,10 @@ section .portrait{
 }
 
 
-section .portrait:hover{ width: calc(60vw - 50px); }
-section .portrait:hover ~ .section-grid{ width: calc(40vw); }
-section .portrait:hover ~ .section-grid:before{ left: 50px; opacity: 1; }
-.portrait .name {
+section .portrait:hover{ width: 60%; }
+section .portrait:hover ~ .section-grid{ width: 40%; }
+/*section .portrait:hover ~ .section-grid:before{ left: 50px; opacity: 1; }
+*/.portrait .name {
     width: 2.5em;
     height: 100vh;
     position: absolute;
@@ -709,7 +709,7 @@ section .portrait:hover ~ .section-grid:before{ left: 50px; opacity: 1; }
     margin: 0 0 0 -1.5em;
 }
 
-.section-grid:before{
+/*.section-grid:before{
 	content: "More";
     position: absolute;
     bottom: 0;
@@ -733,7 +733,7 @@ section .portrait:hover ~ .section-grid:before{ left: 50px; opacity: 1; }
     -o-transition:      left 250ms ease-in-out, opacity 250ms ease-in-out;
     -moz-transition:    left 250ms ease-in-out, opacity 250ms ease-in-out;
     transition:         left 250ms ease-in-out, opacity 250ms ease-in-out;
-}
+}*/
 .section-grid{
   	padding: 4vh;
 	overflow: hidden;
