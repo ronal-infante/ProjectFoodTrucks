@@ -760,6 +760,7 @@ section .portrait:hover ~ .section-grid{ width: 40%; }
 .section-video{
   grid-area: video;
   align-self: center;
+  padding-bottom: 1em;
 }
 .section-transcript{
   grid-area: trans;
