@@ -531,6 +531,7 @@ fieldset { border-radius: 4px; }
 	width: calc(200vw - 100px);
     grid-template-columns: calc(100vw) fit-content(calc(100vw - 100px));
     margin-left: -50px;
+    margin-left: calc( -48.725vh * .5 *.9);
 }
 
 section{ margin-left: -50px }

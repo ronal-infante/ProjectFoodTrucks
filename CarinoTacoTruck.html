@@ -106,6 +106,7 @@
 	<script type="text/javascript">
 		var nav = document.getElementsByTagName('nav')[0],
 		section = document.getElementsByTagName('section')[0],
+		container = document.getElementsByClassName('container')[1],
 		lrgMQ = 1024,
 		prevElOffset = 50;
 
@@ -118,9 +119,15 @@
 			});
 		}
 		function moveToNav(){
+			console.log( document.getElementsByClassName('container')[1] );
 			console.log('nav offsetL' + nav.offsetLeft);
 			console.log('nav scrollL' + nav.scrollLeft);
 			window.scrollTo({
+				left: nav.offsetLeft, 
+				top: 0,
+				behavior: 'smooth'
+			});
+			container.scrollTo({
 				left: nav.offsetLeft, 
 				top: 0,
 				behavior: 'smooth'
