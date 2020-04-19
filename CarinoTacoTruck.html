@@ -121,14 +121,14 @@
 		function moveToNav(){
 			console.log( document.getElementsByClassName('container')[1] );
 			console.log('nav offsetL' + nav.offsetLeft);
-			console.log('nav scrollL' + nav.scrollLeft);
+			console.log(nav.offsetHeight);
 			window.scrollTo({
-				left: nav.offsetLeft, 
+				left: nav.offsetLeft + .16 * nav.offsetHeight, 
 				top: 0,
 				behavior: 'smooth'
 			});
 			container.scrollTo({
-				left: nav.offsetLeft, 
+				left: nav.offsetLeft + .16 * nav.offsetHeight, 
 				top: 0,
 				behavior: 'smooth'
 			});

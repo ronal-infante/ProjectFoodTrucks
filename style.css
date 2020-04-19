@@ -532,6 +532,7 @@ fieldset { border-radius: 4px; }
     grid-template-columns: calc(100vw) fit-content(calc(100vw - 100px));
     margin-left: -50px;
     margin-left: calc( -48.725vh * .5 *.9);
+    width: calc(195vw - (48.725vh * .5 *.9));
 }
 
 section{ margin-left: -50px }
@@ -641,6 +642,7 @@ nav ul p{
     font-size: 25vh;
     line-height: 0.47;
     margin: 0;
+    cursor: pointer;
 }
 nav ul p:nth-of-type(4n+1){ color: #D6FF00; }
 nav ul p:nth-of-type(4n+2){ color: #2900FF; }
